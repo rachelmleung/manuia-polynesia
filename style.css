@@ -1,0 +1,1608 @@
+/*
+ Theme Name:   Manuia Theme Child
+ Theme URI:    http://example.com/manuia-theme-child/
+ Description:  manuia Child Theme - manuia
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     manuia-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  manuia-theme-child
+*/
+
+@import url("../manuia-theme/style.css");
+
+body {
+    background: #fff; 
+
+}
+
+p {
+    color:#333 ;
+    font-size: 1em !important;
+}
+
+.button {
+    
+    background:rgba(247, 168, 60, 0.84);
+        -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;    
+}
+
+a {
+            -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;  
+}
+
+/* ================ MOBILE MOBILE MOBILE =====================*/
+/* ================ MOBILE MOBILE MOBILE =====================*/
+/* ================ MOBILE MOBILE MOBILE =====================*/
+
+
+.page-header {
+    display:none;
+}
+
+body {
+    width:100%;
+    margin:0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding:0;   
+    }
+
+.page-title-custom h1 {
+    font-family: 'Kaushan Script';
+    font-size: 1.6em;
+    margin:0 0 3% 0;
+    padding: 0;
+}
+
+.main-content {
+    padding: 0;
+}
+
+/* ================== HOME PAGE - MOBILE =======================*/
+
+.front-page {
+    width:92%;
+    margin:0 4% 0 4%;
+}
+
+.home-bg-image {
+    background-image: url('https://www.bigislandtv.com/wp-content/uploads/2015/10/hula-sisters-dance-hawaiian-sunset.jpg');
+    opacity: .7;
+    background-size: cover;
+    background-position: top;
+    padding: 15% 0 25% 0;
+    margin: 0;
+}
+
+.experience-button .button {
+    font-size: .8em;
+    display:none;
+}
+
+.hero-content {
+    padding:0;
+}
+
+.hero-content h2 {
+    font-family: 'Kaushan Script';
+    font-size: 1.5em;
+    color:white;
+}
+
+.home-bg-image p {
+    font-family: 'Raleway';
+    width: 96%;
+    margin: 0 2% 15% 2%;
+    color:white;
+    padding:0;
+    font-size: 1em;
+}
+
+.front-page-intro {
+     display:none;
+    background:none;
+}
+
+
+.services img {
+    width:100%;
+    padding: 0 0 0 0;
+}
+
+
+.services {
+   margin: 0 0 10% 0;
+}
+
+.service-1, .service-2, .service-3 {
+    margin:15% 0 0 0;
+}
+.services p {
+    text-align: left;
+}
+.services .button {
+    margin: 0 auto;
+    display: block;
+    background: rgb(247, 168, 60);
+    color:#fff;
+    font-family: 'Open Sans';
+    font-weight: bold;
+
+}
+
+
+.services .button:hover {
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+
+}
+
+/*============== ABOUT PAGE  - MOBILE  ====================*/
+.about-page {
+     
+}
+
+.about-page p {
+    margin:0 0 8% 0;
+    padding:0;
+    color:#333;
+}
+
+.about-image {
+    padding:0 0 10% 0;
+}
+
+
+.bod-image img {
+    width: 80%;
+    padding: 15% 0 0 0;
+    
+}
+
+.bod-name p{
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+/*============== EXPERIENCE PAGE - MOBILE  =============*/
+
+.mobile-book-cta .button {
+    margin: 10% 0 0 0;
+    background: rgb(247, 168, 60);
+    color:white;
+    font-weight: bold;
+    font-family: 'open sans';
+    display:block;
+}
+
+
+.mobile-book-cta .button:hover{
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+
+}
+
+.experience-page {
+    margin:0 0 20% 0;
+}
+.experience-page p {
+    margin:0 ;
+    padding:0;
+    color:#333;
+}
+
+.experience-page img {
+    width:100%;
+    padding: 10% 0 10% 0;
+}
+
+.experiences h4 {
+    margin:0 0 3% 0;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+.experiences p {
+    font-weight: 100;
+}
+
+.clients p {
+    margin:5% 0 0 0 ;
+}
+.the-experience h3 {
+    font-family: 'Kaushan Script';
+    font-size: 1.4em;
+}
+
+
+.booking .button {
+    margin: 10% 0 0 0;
+    background: rgb(247, 168, 60);
+    color:white;
+    font-weight: bold;
+    font-family: 'open sans';
+    display:block;
+}
+
+
+.booking .button:hover{
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+
+}
+
+
+
+/*============ BOOKING FORM ============= */
+
+.nf-response-msg p {
+    color:#333;
+    line-height: 1.8em;
+    font: 1em;
+    margin: 0 0 3% 0;
+    padding:0;
+}
+
+.nf-response-msg img {
+    display: flex;
+    margin:0;
+    align-content: flex-start;
+}
+
+/* ================= CLASSES PAGE - MOBILE  ===========================*/
+.classes-page {
+    margin: 0 0 10% 0;
+}
+.classes-page p {
+    margin:0;
+    padding:0;
+    color:#333;
+}
+.schedule-button {
+    margin: 8% 0 8% 0;
+}
+.schedule-button a.button{
+    width:100%;
+    display:block;
+    background:rgb(247, 168, 60);
+}
+.schedule-button a.button:hover{
+    width:100%;
+    display:block;
+    color:white;
+    background-color: rgba(36, 198, 130, 0.78);
+}
+
+.instructors-button a.button{
+    width:100%;
+    display:block;
+    background:rgba(36, 198, 130, 0.78);
+}
+.instructors-button a.button:hover{
+    width:100%;
+    display:block;
+    color:white;
+    background-color: rgb(247, 168, 60);
+}
+.section-1 {
+    
+}
+
+.class_image_1 img {
+    width:100%;
+    padding: 10% 0 0 0;
+}
+
+.class-days  {
+ margin: 5% 0 0 0   
+}
+
+.what-to-wear span {
+    font-size: 1em;
+    margin: 5% 0 0 0;
+}
+
+.what-to-wear p {
+
+    margin: 5% 0 0 0 ;
+}
+
+.class-guidelines p {
+    margin: 5% 0 5% 0;
+}
+.section-2 {
+    
+}
+.class_image_2 img {
+    width:100%;
+    padding: 10% 0 0 0;
+}
+
+.members-only {
+    margin: 0 0 5% 0;
+}
+
+.drop-in {
+    margin: 0 0 5% 0;
+}
+
+.schedule h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-2-info .button {
+    display: block;
+    margin: 10% 0 0 0;
+    background: rgb(247, 168, 60);
+    color:white;
+    font-weight: bold;
+    font-family: 'open sans';
+}
+
+
+.section-2-info .button:hover{
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+    
+    
+}
+
+
+
+ /* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: none;
+    display:flex;
+    justify-content: center;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    color:white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+    color:white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+} 
+.instructor-image img {
+    width: 80%;
+    padding: 15% 0 0 0;
+    
+}
+
+.instructor-name p{
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+/*======= CLASS SCHEDULE - MOBILE ==============*/
+
+.schedule-description p {
+    color:#333;
+    margin:0;
+    padding:0;
+}
+
+.schedule-description a {
+    border-bottom: 1px solid #333;
+}
+
+
+
+#sidebar {
+    display:block;
+    border:none;
+}
+
+#sidebar h2 {
+    margin: 5% 0 5% 0 ;
+}
+
+#sidebar .widget {
+    padding: 1.75em 6% 0;
+}
+
+.eo-events-nav a {
+    display:none;
+}
+/* template sourced from http://www.wpexplorer.com/wordpres-calendar-style/ */
+.widget_calendar {
+    float: left;
+}
+#wp-calendar {
+    width: 100%; 
+    margin: 0 0 20% 0;
+    
+}
+#wp-calendar caption { 
+    text-align: center; color: #333; font-size: 1em; margin-top: 10px; margin-bottom: 15px;
+}
+#wp-calendar thead {
+    font-size: 1em;
+}
+#wp-calendar thead th { 
+    padding-bottom: 1em; 
+}
+#wp-calendar tbody {
+    color: #aaa;
+}
+#wp-calendar tbody td {
+    background: #f5f5f5; border: 1px solid #fff; text-align: center; padding:8px;
+}
+#wp-calendar tbody td:active {
+    background: rgb(247, 168, 60);     
+}
+#wp-calendar tbody td:hover {
+    background: rgb(247, 168, 60); 
+    color:black;
+}
+
+#wp-calendar tbody .pad { 
+    background: none;
+}
+#wp-calendar tfoot #next { 
+    font-size: 1em; 
+    text-transform: uppercase; 
+    text-align: right; 
+}
+#eo-widget-next-month {
+    text-align: right;
+}
+#wp-calendar tfoot #prev { 
+    font-size: 1em; 
+    text-transform: uppercase; 
+    padding-top: 1; 
+}
+#wp-calendar tfoot tr a:hover {
+    border-bottom: 1px solid #333;
+}
+
+.eo-event-date {
+    display:flex;
+    flex-wrap: wrap;
+}
+.eo-event-content p {
+    color:#333;
+    padding:0;
+}
+
+ul.eo-event-meta {
+    list-style-type: none;
+    margin: 0;
+}
+
+.entry-title {
+    color:rgb(247, 168, 60);
+}
+
+
+/* remove phrases 'venues' and 'categories' */
+.eo-event-meta strong {
+    display:none;
+}
+
+.eventorganiser-event-meta p {
+    color:#333;
+}
+.eo_shortcode_calendar_0  {
+}
+
+
+/*============= LOCATIONS PAGE - MOBILE ================== */
+.locations {
+
+}
+.daly-city, .hayward {
+    width:100%;
+}
+.locations p {
+    color:#333;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+/*========= Inidividual Event Page - MOBILE ============== */
+
+#text {
+    display:none;
+}
+.eventorganiser-event-meta h4 {
+    display: none;
+}
+
+.eventorganiser-event-meta p{
+    display:none;
+}
+
+.eventorganiser-event-meta ul.eo-upcoming-dates, .eo-upcoming-dates-show-more {
+    display:none; 
+}
+
+ul.eo-upcoming-dates {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.entry-content p {
+    color:#333;
+    margin:5% 0 5% 0;
+    padding:0;
+}
+
+.entry-meta {
+    display:none;
+}
+
+.comments-template {
+    display:none;
+}
+/* ============== GALLERY AND AWARDS PAGE - MOBILE  ================ */
+
+.gallery img {
+    padding: 0;
+    margin: 0 auto;
+    display:block;
+}
+
+
+.awards-jump {
+    margin:0 0 10% 0;
+    padding:0;
+}
+
+.awards-jump a:hover {
+    color: #666;
+    padding: 0 0 1% 0;
+    border-bottom: 1px solid #666;
+}
+
+.awards p {
+    margin:0;
+    padding: 0 0 0 0;
+}
+.back-to-top {
+    margin:0 0 8% 0;  
+    
+}
+
+.back-to-top a:hover {
+    color: #666;
+    padding: 0 0 1% 0;
+    border-bottom: 1px solid #666;
+}
+
+/*====================== CONTACT PAGE - MOBILE  ============================*/
+
+.manuia-email, .manuia-phone {
+    background: rgba(239, 239, 239, 0.78);
+    font-size: 1.2em;
+}
+
+.manuia-email span, .manuia-phone span  {
+    font-weight: bold;
+}
+.manuia-email p, .manuia-phone p{
+    color:#333;
+    font-size: .9em;
+    margin: 0 auto;
+    text-align: center;
+    padding:3%;
+}
+.manuia-email {
+    margin: 10% 0 0 0;
+    padding: 8% 0 0 0;
+}
+.manuia-phone {
+    margin:0 0 15% 0;
+    padding: 0 0 8% 0;
+}
+.contact-book {
+    margin:5% 0 15% 0;
+    text-align: center;
+}
+
+.contact-book p {
+    margin: 0 0 0 0;
+    padding: 2% 0 0 0;
+    color:#333;
+}
+.contact-book a {
+    color:white;
+    background:rgb(247, 168, 60);
+    padding: 1% 2% 1%;
+    margin: 0 0 0 2%;
+    display:block;
+}
+.contact-book a:hover {
+    background:rgba(36, 198, 130, 0.78);
+    color:white;
+}
+
+.contact-submit {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+
+#nf-field-4 {
+    background: rgb(247, 168, 60);
+    color:white;
+    font-family: 'open sans';
+    font-weight: bold;
+}
+#nf-field-4:hover {    
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+    
+        -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;   
+
+}
+
+
+.nf-form-fields-required {
+    display:none;
+}
+
+.ninja-forms-req-symbol {
+    display:none;
+}
+
+/*=============== LOCATIONS - MOBILE ============== */
+
+.daly-city {
+    margin:0 0 5% 0;
+} 
+
+.hayward {
+    
+}
+
+/* ========== BOOK YOUR SHOW - MOBILE ============*/
+
+#booking-intro p{
+    font-size: 1em;
+    color:#333;
+    margin:0;
+    padding:0 0 5% 0;
+    
+}
+
+#booking-intro a {
+    color:#333;
+    border-bottom: 1px solid;
+}
+#booking-intro a:hover {
+    color:rgb(247, 168, 60);
+    border-bottom: 1px solid;
+}
+
+.book-submit {
+        display:flex;
+        justify-content: flex-end;
+}
+
+#nf-field-39 {
+    background: rgb(247, 168, 60);
+    color:white;
+    font-family: 'open sans';
+    font-weight: bold;
+}
+#nf-field-39:hover {    
+    color:white;
+    background: rgba(36, 198, 130, 0.78); 
+    
+        -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;   
+
+}
+
+    .stage-type p, .dimensions p, .nf-after-field {
+        display:none;
+    }
+    
+
+
+/* ================ FOOTER  - MOBILE  =====================*/
+.social-media-navigation ul{
+    list-style: none;
+}
+
+.site-description p {
+    font-style: italic;
+    color:#909090 !important;
+}
+
+.site-footer a:hover {
+    color: #666;
+    padding: 0 0 1% 0;
+    border-bottom: 1px solid #666;
+}
+
+.footer-contact a {
+    font-size: 1em;
+}
+
+/* ================ TABLET TABLET TABLET =====================*/
+/* ================ TABLET TABLET TABLET =====================*/
+/* ================ TABLET TABLET TABLET =====================*/
+
+@media (min-width: 767px){
+
+.page-header {
+    display:inline;
+}
+    
+#masthead span.title {
+        visibility: hidden;
+    }
+    
+
+#menu-top-menu a {
+    font-size: 1em;
+}
+/* ================== HOME PAGE - TABLET =======================*/
+
+.front-page {
+}
+
+.home-bg-image {
+    padding: 15% 0 15% 0;
+}
+    
+    
+.hero-content {
+    padding:0;
+}
+
+.hero-content h2 {
+    font-family: 'Kaushan Script';
+    font-size:2.4em ;
+    line-height: 1.8em;
+    width:100%;
+}
+
+.hero-content p {
+    
+    font-family: 'Raleway';
+    width: 96%;
+    margin: 0 2% 10% 2%;
+    padding:0;
+}
+
+.experience-button .button {
+    font-size: 1em;
+    display: none;
+
+}
+
+.front-page-intro {
+    display:inline-block;
+    margin: 0 0 0 0;
+    padding:0;
+    background:none;
+}
+.front-page-intro p {
+    width:90%; 
+    margin:auto;
+    font-size: 1.1em;
+
+    }
+
+.front-intro-button {
+    margin: 3% 0 0 0;
+    }
+.front-intro-button .button {
+    background: none;
+    color:rgb(247, 168, 60);
+    border: 1px solid rgb(247, 168, 60); 
+    display: block;
+    width:50%;
+    margin: auto;
+    }
+.front-intro-button .button:hover {
+    background:rgb(247, 168, 60);
+    color:#fff;
+    border: 1px solid rgb(247, 168, 60); 
+    display: block;
+    width:50%;
+    margin: auto;
+    }
+    
+.service-1
+    {
+        width:100%;
+        
+    }
+.service-2
+    {
+        width:100%;
+        
+    }
+.service-3
+    {
+        width:100%;
+        
+    }
+    
+.services {
+    margin: 0 auto;
+    }
+   
+.services img {
+    width:100%;
+    padding: 10% 0 0 0;
+    margin: 0 auto;
+
+}
+
+.services p {
+        width:100%;
+        margin:0 auto; 
+        text-align: left;
+    }
+
+
+.services .button {
+    width:50%;
+    margin: 0 auto;
+    z-index: 0;
+}
+    
+
+    
+/*============== ABOUT PAGE  - TABLET  ====================*/
+.about-page {
+     
+}
+
+.about-page p {
+     margin:0 0 5% 0;
+    padding:0;
+}
+
+.about-image {
+    padding:0 0 5% 0;
+}
+.bod {
+
+    }
+    
+.bod-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.bod-1,.bod-2,.bod-3,.bod-4,.bod-5,.bod-6 {
+    width:40%; 
+    }  
+    
+    
+.bod-image img {
+    width: 100%;
+  
+}
+
+.bod-name p{
+    text-align: center;
+    margin: 2% 0 0 0;
+}        
+   
+/*=========== GALLERY AND AWARDS - TABLET ========== */
+.gallery img {
+
+    display:inline;
+}
+    
+
+    /*============== EXPERIENCE PAGE - tABLET  =============*/
+.mobile-book-cta .button {
+
+display:none;
+    }
+
+.experience-page p {
+    margin:5% 0 0 0 ;
+    padding:0 ; 
+}
+
+.experience-page img {
+    width:100%;
+    padding: 5% 0 5% 0;
+}
+
+.experiences h4 {
+    margin:0 0 1% 0;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+}
+.experiences p {
+    font-weight: 100;
+    margin: 0;
+}
+
+.experiences .clients p {
+    margin:5% 0 0 0 !important;
+}
+.the-experience h3 {
+    font-family: 'Kaushan Script';
+    font-size: 1.4em;
+}
+
+.the-experience p {
+        margin: 0 0 0 0;
+    }
+.booking .button {
+    display: block;
+    margin: 10% 0 0 0;
+}
+
+    .booking p {
+        margin: 0;
+    }
+
+/* ================= CLASSES PAGE - TABLET  ===========================*/
+
+.classes-page p {
+    margin:0;
+    padding:0;
+}
+
+.class-buttons{
+    width:100%;
+    margin: 5% 0 0 0;
+    display:flex;
+    justify-content: space-around;
+    }
+    
+.schedule-button {
+     margin:0;
+    padding: 0;
+    }
+    
+.instructors-button {
+     margin:0:        
+    }
+.section-1 {
+    
+}
+
+.schedule-jump {
+    margin: 5% 0 0 0;
+}
+.class_image_1 img {
+    width:100%;
+    padding: 10% 0 0 0;
+}
+
+.class-days  {
+ margin: 3% 0 0 0   
+}
+
+.what-to-wear span {
+    font-size: 1em;
+    margin: 5% 0 0 0;
+}
+
+.what-to-wear p {
+    margin: 3% 0 0 0 ;
+}
+
+.class-guidelines p {
+    margin: 2% 0 5% 0;
+}
+.section-2 {
+    
+}
+.class_image_2 img {
+    width:100%;
+    padding: 5% 0 0 0;
+}
+
+.members-only {
+    margin: 0 0 3% 0;
+}
+
+.drop-in {
+    margin: 0 0 3% 0;
+}
+
+.schedule h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-2-info .button {
+    width:50%;
+    display: block;
+    margin: 5% 25% 5% 25%;
+}
+
+    
+.instructor {
+
+    }
+    
+.instructor-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+.instructor-1,.instructor-2,.instructor-3,.instructor-4,.instructor-5,.instructor-6,.instructor-7,.instructor-8,.instructor-9,.instructor-10,.instructor-11,.instructor-12,.instructor-13,.instructor-14,.instructor-15 {
+    width:30%; 
+    }  
+    
+    
+.instructor-image img {
+    width: 100%;
+  
+}
+
+.instructor-name p{
+    text-align: center;
+    margin: 2% 0 0 0;
+}        
+/*====================== CONTACT PAGE - TABLET  ============================*/
+    .contact-info {
+        margin: 0 0 8% 0;
+    }
+.manuia-email, .manuia-phone {
+    background: rgba(239, 239, 239, 0.78);
+    width:48%;
+    display:inline-block;
+    margin: 0 auto;
+    
+}
+.manuia-email {
+    margin:0 2% 0 0 ;
+    padding:0;
+}
+.manuia-phone {
+    margin:0;
+    padding: 0 ;
+}
+ 
+    
+.manuia-email span, .manuia-phone span  {
+    font-weight: bold;
+}
+.manuia-email p, .manuia-phone p{
+    color:#333;
+    font-size: .9em;
+    text-align: center;
+}
+/* =========== LOCATIONS PAGE - TABLET */
+    
+.locations{
+    width:100%;
+    margin: 5% 0 10% 0;
+}
+
+.daly-city {
+    margin:0 0 5% 0;
+    width:48%;
+    display:inline-block;
+    float:left;    
+}
+
+.hayward {
+      
+    width:48%;  
+    display:inline-block;
+
+    }
+
+.phone {
+    width:48%;   
+    float:left;
+    margin: 0 4% 0 0 ;
+    }
+.contact-book {
+    margin:5% 0 5% 0;
+    }
+.nf-form-fields-required {
+    display:none;
+}
+
+.ninja-forms-req-symbol {
+    display:none;
+}
+    
+    .nf-field-1-wrap, .nf-field-2-wrap {
+        width:46%;
+    }
+    .contact-form {
+        width:100%;
+    }   
+      
+    .locations {    
+    display:flex;
+    justify-content: space-between;
+    }
+    
+    .locations iframe {
+        height:70%;
+    }
+/* ========== BOOK YOUR SHOW - TABLET ============*/
+    .nf-form-content  {
+
+    }
+    .nf-field {
+        display: block;
+    }
+
+
+.book-name, .book-company, .book-email, .book-phone, .event-date, .location, .event-type, .indoor-outdoor,  .event-start, .event-end, .stage-type, .dimensions, .guests, .manuia-referral{
+        width:46%; 
+        display: inline-block;     
+    } 
+
+    .book-company, .book-phone,  .location, .indoor-outdoor, .event-end, .dimensions, .manuia-referral{
+        margin: 0 0 0 5%;
+    }
+
+
+/* ================ DESKTOP DESKTOP DESKTOP =====================*/
+/* ================ DESKTOP DESKTOP DESKTOP =====================*/
+/* ================ DESKTOP DESKTOP DESKTOP =====================*/
+
+
+@media (min-width: 941px){
+
+.page-title-custom h1 {
+    font-family: 'Kaushan Script';
+    font-size: 2.2em;
+    margin:0 0 2% 0;
+    padding: 0;
+}
+
+ /* ======================== HOME - DESKTOP ======================*/
+
+    
+.front-page {
+    margin:0 auto;
+    width:80%;
+}
+
+.hero-content {
+    padding:0;
+}
+
+.hero-content h2 {
+    font-family: 'Kaushan Script';
+    font-size:3.4em;
+    line-height: 1.5em;
+    width: 96%;
+    margin: 5% 2% 2% 2%;
+
+}
+
+.hero-content p {
+    font-family: 'Raleway';
+    font-size: 1.4em !important;
+    width: 96%;
+    margin: 0 2% 5% 2%;
+    padding:0;
+}
+
+.experience-button .button {
+    font-size: 1em;
+    display: none;
+
+}
+
+.front-page-intro {
+    display:inline-block;
+    margin: 0 0 0 0;
+}
+.front-page-intro p {
+    width:90%; 
+    margin:auto;
+    font-size: 1.1em
+
+    }
+
+.front-intro-button {
+    margin:1% 0 0 0;
+    }
+.front-intro-button .button {
+    background: rgba(247, 168, 60, 0.84);
+    color:#fff;
+    border: 1px solid rgba(247, 168, 60, 0.84); 
+    display: block;
+    width:40%;
+    margin: auto;
+    }
+.front-intro-button .button:hover {
+    background:#fff;
+    color:rgba(247, 168, 60, 0.84);
+    border: 1px solid rgba(247, 168, 60, 0.84); 
+    display: block;
+    width:40%;
+    margin: auto;
+    }
+  
+ /*   
+.services {
+    width:100%;
+    padding: 5% 0 0 0;
+    margin: 0 auto;
+    display: flex;/* use this to make sure boxes don't flex with text length*/
+   /* justify-content: space-around;/* use this to make sure boxes don't flex with text length*/
+  /*  }/*
+   
+.all-services {
+        margin: 0 0 0 0;
+        padding: 0 0 8% 0 ;
+        border: 1px solid transparent; /* format*/ 
+ /*   } 
+    
+.service-1
+    {
+        width:30%;
+        margin: 0 3% 0 0;
+        
+        
+    }
+
+.service-2
+    {
+        width:30%;
+        margin: 0 3% 0 0;
+        
+    }
+.service-3
+    {
+        width:30%;
+        
+    }
+
+    */
+    
+.services {
+    margin:0 auto;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+        
+    }
+
+.service-1, .service-2, .service-3 {
+    width: 30%;
+    }
+.services img {
+    width:96%;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+
+}
+
+.services p {
+
+    width:100%;
+    margin:0 0 3% 0; 
+    text-align: left;
+    font-size: .9em;
+        
+    }
+
+
+.services .button {
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+    
+    
+
+    
+/*============== ABOUT PAGE  - DESKTOP  ====================*/
+.about-page {
+    width:90%;  
+    margin: 0 auto;
+}
+
+.about-page p {
+     margin:0 0 3% 0;
+    padding:0;
+    font-size: 1em;
+}
+
+.about-image {
+    padding:3% 0 6% 0;
+}
+            
+.bod {
+
+    }
+    
+.bod-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.bod-1,.bod-2,.bod-3,.bod-4,.bod-5,.bod-6 {
+    width:30%;
+    }
+    
+    
+.bod-image img {
+    width: 100%;
+  
+}
+
+.bod-name p{
+    text-align: center;
+    margin: 2% 0 0 0;
+}        
+   
+/* ================= GALLERY AND AWARDS ================*/  
+.gallery img {
+
+    display:inline;
+}
+    
+.awards {
+    width:90%;  
+    margin: 0 auto;        
+    }
+    /*============== EXPERIENCE PAGE - DESKTOP  =============*/
+.experience-page {
+    width:90%;  
+    margin: 0 auto;
+    }
+    
+.experience-page p {
+    margin:0;
+    padding:0 ; 
+    font-size: 1em;
+}
+
+.clients {
+        margin: 3% 0 0 0;
+    }
+.experiences {
+    width:100%;
+    margin: 7% 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+.experiences img {
+    width:100%;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+
+}
+.experiences h4 {
+    font-size:1em;
+    width:100%;
+    margin:5% 0 2% 0;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.experiences p {
+    font-weight: 100;
+    font-size: .9em;
+}
+
+    
+.experience-1 {
+        width:32%;
+        display: inline-block;   
+        
+    }
+    
+.experience-2 {
+        width:32%;
+
+        display: inline-block;   
+        
+    }
+    
+.experience-3 {
+        width:32%;
+        display: inline-block;   
+    }
+
+.the-experience {
+
+}
+    
+.the-experience h3 {
+    font-family: 'Kaushan Script';
+    font-size: 2em;
+    margin: 5% 0 2% 0;
+}
+
+.booking .button {
+    width:40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.booking-button {
+      margin: 5% 0 0 0;  
+    }  
+
+    .community {
+        margin: 0 0 5% 0;
+    }
+
+/* ================= CLASSES PAGE - DESKTOP  ===========================*/
+.classes-page {
+        width:90%;
+        margin: 0 auto;
+    }
+.classes-page p {
+    margin:0;
+    padding:0;
+    font-size: 1em;
+}
+
+.class-sections{
+    width:100%;
+    margin: 0 auto;
+    display: flex;/* use this to make sure boxes don't flex with text length*/
+    justify-content: space-between;/* use this to make sure boxes don't flex with text length*/
+
+    }
+.class-sections h4 {
+    font-size: 1.1em;  
+    }
+.section-1 {
+    width:45%;  
+    border: 1px solid transparent; /* format*/ 
+}
+
+.schedule-jump {
+    margin: 5% 0 0 0;
+}
+.class_image_1 img {
+    width:100%;
+    padding: 0 0 0 0;
+    margin: 15% 0 0 0;
+}
+
+.class-days  {
+ margin: 3% 0 0 0   
+}
+
+.what-to-wear span {
+    font-size: 1em;
+    margin: 5% 0 0 0;
+}
+
+.what-to-wear p {
+    margin: 3% 0 0 0 ;
+}
+
+.class-guidelines p {
+    margin: 2% 0 5% 0;
+}
+    
+.section-2 {
+
+    width:45%;  
+    border: 1px solid transparent; /* format*/ 
+    
+}
+.class_image_2 img {
+    width:100%;
+    padding: 0 0 0 0;
+    margin: 15% 0 0 0;
+}
+
+.members-only {
+    margin: 0 0 3% 0;
+}
+
+.drop-in {
+    margin: 0 0 3% 0;
+}
+
+.schedule h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-2-info .button {
+    width:100%;
+    display: block;
+    margin: 10% 0 0 0;
+}
+/*====================== CONTACT PAGE - DESKTOP  ============================*/
+
+.locations{
+    width:100%;
+    margin: 5% 0 10% 0;
+}
+
+.daly-city {
+    margin:0 0 5% 0;
+    width:48%;
+        display:inline-block;
+    float:left;
+    
+}
+
+.hayward {
+      
+    width:48%;  
+    display:inline-block;
+
+    }
+  
+.phone {
+    width:48%;   
+    float:left;
+    margin: 0 4% 0 0 ;
+
+    
+
+    }
+.event-date {
+    width:48%;  
+    display:inline-block;
+
+    
+    }  
+.nf-form-fields-required {
+    display:none;
+}
+
+.ninja-forms-req-symbol {
+    display:none;
+}
+
+    
+} /*  end DESKTOP styles */
