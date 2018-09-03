@@ -410,7 +410,7 @@ img {
 
 .instructor-name p{
     text-align: center;
-    margin: 2% 0 0 0;
+    margin: 3% 0 0 0;
 }
 
 /*======= CLASS SCHEDULE - MOBILE ==============*/
@@ -1251,6 +1251,7 @@ display:none;
 .front-intro-button {
     margin:1% 0 0 0;
     }
+    
 .front-intro-button .button {
     background: rgba(247, 168, 60, 0.84);
     color:#fff;
