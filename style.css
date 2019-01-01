@@ -73,14 +73,16 @@ img {
 
 /* ================== HOME PAGE - MOBILE =======================*/
 
+
 .front-page {
     width:92%;
     margin:0 4% 0 4%;
+       background:none;
 }
 
 .home-bg-image {
-    background-image: url('https://www.bigislandtv.com/wp-content/uploads/2015/10/hula-sisters-dance-hawaiian-sunset.jpg');
-    opacity: .7;
+    background-image: url('https://image.ibb.co/daaux0/manuia-HI.jpg');
+    opacity: 1;
     background-size: cover;
     background-position: top;
     padding: 15% 0 25% 0;
@@ -104,8 +106,8 @@ img {
 
 .home-bg-image p {
     font-family: 'Raleway';
-    width: 96%;
-    margin: 0 2% 15% 2%;
+    width: 94%;
+    margin: 0 3% 15% 3%;
     color:white;
     padding:0;
     font-size: 1em;
@@ -771,14 +773,19 @@ ul.eo-upcoming-dates {
 /* ================ TABLET TABLET TABLET =====================*/
 /* ================ TABLET TABLET TABLET =====================*/
 
-@media (min-width: 767px){
+@media (min-width: 768px){
 
 .page-header {
     display:inline;
 }
     
+#masthead {
+    padding: none;
+    margin:0;
+    }
+    
 #masthead span.title {
-        visibility: hidden;
+    visibility: hidden;
     }
     
 
@@ -819,11 +826,17 @@ ul.eo-upcoming-dates {
     display: none;
 
 }
+    
+.front-intro-button {
+        
+    display:flex;
+    justify-content: space-around;
+    }
 
 .front-page-intro {
     display:inline-block;
     margin: 0 0 0 0;
-    padding:0;
+    padding: 0 0 10% 0;
     background:none;
 }
 .front-page-intro p {
@@ -833,51 +846,54 @@ ul.eo-upcoming-dates {
 
     }
 
-.front-intro-button {
-    margin: 3% 0 0 0;
-    }
-.front-intro-button .button {
-    background: none;
-    color:rgb(247, 168, 60);
-    border: 1px solid rgb(247, 168, 60); 
-    display: block;
-    width:50%;
-    margin: auto;
-    }
-.front-intro-button .button:hover {
-    background:rgb(247, 168, 60);
-    color:#fff;
-    border: 1px solid rgb(247, 168, 60); 
-    display: block;
-    width:50%;
-    margin: auto;
-    }
-    
-.service-1
-    {
-        width:100%;
-        
-    }
-.service-2
-    {
-        width:100%;
-        
-    }
-.service-3
-    {
-        width:100%;
-        
-    }
-    
 .services {
-    margin: 0 auto;
-    }
-   
-.services img {
-    width:100%;
+    margin:0 auto;
     padding: 10% 0 0 0;
+    border-top: 1px black solid;
+    display:flex;
+    flex-direction: column;
+        
+    }
+
+.service-1 {
+    width: 80%;
+    padding:0 0 5% 0;
     margin: 0 auto;
 
+    }
+.service-2 {
+    width: 80%;
+    padding:0 0 5% 0;
+    margin: 0 auto;
+
+    }
+.service-3 {
+    width: 80%;
+    padding:0 0 5% 0;
+    margin: 0 auto;
+
+    }
+.services img {
+    padding: 0 0 0 0;
+    margin: 0 auto;
+
+}
+
+.services p {
+
+    width:100%;
+    margin:0 0 3% 0; 
+    text-align: left;
+    font-size: .9em;
+        
+    }
+
+
+.services .button {
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .services p {
@@ -896,16 +912,16 @@ ul.eo-upcoming-dates {
 
     
 /*============== ABOUT PAGE  - TABLET  ====================*/
-.about-page {
-     
-}
+
 
 .about-page p {
-     margin:0 0 5% 0;
+    margin:0 0 5% 0;
     padding:0;
 }
 
 .about-image {
+    width:80%;
+    margin:auto;
     padding:0 0 5% 0;
 }
 .bod {
@@ -1009,7 +1025,8 @@ display:none;
      margin:0:        
     }
 .section-1 {
-    
+    width:80%;
+    margin:auto;
 }
 
 .schedule-jump {
@@ -1057,6 +1074,11 @@ display:none;
     padding: 0;
 }
 
+    .section-2 {
+    width:80%;
+        margin:auto;
+    }
+
 .section-2-info .button {
     width:50%;
     display: block;
@@ -1088,6 +1110,28 @@ display:none;
     text-align: center;
     margin: 2% 0 0 0;
 }        
+/*====================== ENTERTAINMENT PAGE - TABLET  ============================*/
+    .experience-page {
+    margin: 0 0 10% 0;
+    }
+.experience-1 {
+    width:80%;
+    margin:auto;
+}
+.experience-2 {
+    width:80%;
+    margin:auto;
+}
+.experience-3 {
+    width:80%;
+    margin:auto;
+}
+    
+.booking-button {
+     width:50%;
+    display: block;
+    margin: auto;
+    }
 /*====================== CONTACT PAGE - TABLET  ============================*/
     .contact-info {
         margin: 0 0 8% 0;
@@ -1125,7 +1169,6 @@ display:none;
 }
 
 .daly-city {
-    margin:0 0 5% 0;
     width:48%;
     display:inline-block;
     float:left;    
@@ -1219,7 +1262,7 @@ display:none;
     font-size:3.4em;
     line-height: 1.5em;
     width: 96%;
-    margin: 5% 2% 2% 2%;
+    margin: 0 2% 2% 2%;
 
 }
 
@@ -1307,16 +1350,18 @@ display:none;
     */
     
 .services {
+    width:100%;
     margin:0 auto;
     padding: 0;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top: none;
         
     }
 
 .service-1, .service-2, .service-3 {
-    width: 30%;
+    width: 33%;
     }
 .services img {
     width:96%;
@@ -1347,7 +1392,6 @@ display:none;
     
 /*============== ABOUT PAGE  - DESKTOP  ====================*/
 .about-page {
-    width:90%;  
     margin: 0 auto;
 }
 
@@ -1396,8 +1440,7 @@ display:none;
     margin: 0 auto;        
     }
     /*============== EXPERIENCE PAGE - DESKTOP  =============*/
-.experience-page {
-    width:90%;  
+.experience-page { 
     margin: 0 auto;
     }
     
@@ -1466,14 +1509,11 @@ display:none;
 }
 
 .booking .button {
-    width:40%;
+    width:80%;
     display: block;
-    margin: 0 auto;
-}
-
-.booking-button {
-      margin: 5% 0 0 0;  
+    margin: 10% 10% 0 10%;
     }  
+
 
     .community {
         margin: 0 0 5% 0;
@@ -1481,7 +1521,6 @@ display:none;
 
 /* ================= CLASSES PAGE - DESKTOP  ===========================*/
 .classes-page {
-        width:90%;
         margin: 0 auto;
     }
 .classes-page p {
@@ -1562,7 +1601,15 @@ display:none;
     margin: 10% 0 0 0;
 }
 /*====================== CONTACT PAGE - DESKTOP  ============================*/
-
+.contact-info {
+    margin:auto;
+    }
+    
+.nf-form-content {
+    margin:auto;
+    padding: 5% 0 0 0;
+    }
+    
 .locations{
     width:100%;
     margin: 5% 0 10% 0;
