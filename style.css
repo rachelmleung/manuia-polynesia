@@ -19,7 +19,7 @@ body {
 
 p {
     color:#333 ;
-    font-size: 1em !important;
+    font-size: .9em;
 }
 
 .button {
@@ -33,6 +33,7 @@ p {
 }
 
 a {
+    font-size: .9em;
             -webkit-transition: all 500ms ease; /* slows down hover effect*/
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -110,7 +111,6 @@ img {
     margin: 0 3% 15% 3%;
     color:white;
     padding:0;
-    font-size: 1em;
 }
 
 .front-page-intro {
@@ -252,7 +252,6 @@ img {
 .nf-response-msg p {
     color:#333;
     line-height: 1.8em;
-    font: 1em;
     margin: 0 0 3% 0;
     padding:0;
 }
@@ -416,115 +415,52 @@ img {
 }
 
 /*======= CLASS SCHEDULE - MOBILE ==============*/
-
-.schedule-description p {
-    color:#333;
-    margin:0;
-    padding:0;
+.class-day {
+    /*border: 1px rgb(247, 168, 60) solid;*/
+    justify-content: space-around;
+    padding: 0 3% 3% 3%;
+    margin: 3% 0 3% 0;
+}
+.class-day h2 {
+    margin: 5% 0 0 0;
+}
+.class-intro p {
+    width:90%;
+    margin: 0 auto;
+    font-style: italic;
+    padding: 5% 0 0 0;
 }
 
-.schedule-description a {
-    border-bottom: 1px solid #333;
-}
-
-
-
-#sidebar {
-    display:block;
-    border:none;
-}
-
-#sidebar h2 {
-    margin: 5% 0 5% 0 ;
-}
-
-#sidebar .widget {
-    padding: 1.75em 6% 0;
-}
-
-.eo-events-nav a {
-    display:none;
-}
-/* template sourced from http://www.wpexplorer.com/wordpres-calendar-style/ */
-.widget_calendar {
-    float: left;
-}
-#wp-calendar {
-    width: 100%; 
-    margin: 0 0 20% 0;
-    
-}
-#wp-calendar caption { 
-    text-align: center; color: #333; font-size: 1em; margin-top: 10px; margin-bottom: 15px;
-}
-#wp-calendar thead {
-    font-size: 1em;
-}
-#wp-calendar thead th { 
-    padding-bottom: 1em; 
-}
-#wp-calendar tbody {
-    color: #aaa;
-}
-#wp-calendar tbody td {
-    background: #f5f5f5; border: 1px solid #fff; text-align: center; padding:8px;
-}
-#wp-calendar tbody td:active {
-    background: rgb(247, 168, 60);     
-}
-#wp-calendar tbody td:hover {
-    background: rgb(247, 168, 60); 
-    color:black;
-}
-
-#wp-calendar tbody .pad { 
-    background: none;
-}
-#wp-calendar tfoot #next { 
-    font-size: 1em; 
-    text-transform: uppercase; 
-    text-align: right; 
-}
-#eo-widget-next-month {
-    text-align: right;
-}
-#wp-calendar tfoot #prev { 
-    font-size: 1em; 
-    text-transform: uppercase; 
-    padding-top: 1; 
-}
-#wp-calendar tfoot tr a:hover {
-    border-bottom: 1px solid #333;
-}
-
-.eo-event-date {
-    display:flex;
-    flex-wrap: wrap;
-}
-.eo-event-content p {
-    color:#333;
-    padding:0;
-}
-
-ul.eo-event-meta {
-    list-style-type: none;
+.class-name,.class-time, p {
     margin: 0;
+    padding:0;
+
 }
 
-.entry-title {
-    color:rgb(247, 168, 60);
+.class-name p {
+    font-weight: 600;
+
+}
+.class-location a {
+    color:#666;
+    border-bottom: 1px solid #666;
 }
 
+.class-location a:hover {
+    color: rgb(247, 168, 60);
+    border-bottom: 1px solid rgb(247, 168, 60);
+}
+.each-class {
+    margin: 8% 0 5% 0;
+    
 
-/* remove phrases 'venues' and 'categories' */
-.eo-event-meta strong {
-    display:none;
 }
 
-.eventorganiser-event-meta p {
-    color:#333;
+.each-class {
+    padding: ;
 }
-.eo_shortcode_calendar_0  {
+.class-info p {
+    margin: 5% 0 0 0;
 }
 
 
@@ -842,7 +778,7 @@ ul.eo-upcoming-dates {
 .front-page-intro p {
     width:90%; 
     margin:auto;
-    font-size: 1.1em;
+
 
     }
 
@@ -947,7 +883,8 @@ ul.eo-upcoming-dates {
     text-align: center;
     margin: 2% 0 0 0;
 }        
-   
+
+    
 /*=========== GALLERY AND AWARDS - TABLET ========== */
 .gallery img {
 
@@ -1110,6 +1047,20 @@ display:none;
     text-align: center;
     margin: 2% 0 0 0;
 }        
+    
+       
+/*=========== CLASS SCHEDULE - TABLET ========== */
+    
+    .class-schedule {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .class-day {
+        width: 45%;
+    }
 /*====================== ENTERTAINMENT PAGE - TABLET  ============================*/
     .experience-page {
     margin: 0 0 10% 0;
@@ -1158,7 +1109,6 @@ display:none;
 }
 .manuia-email p, .manuia-phone p{
     color:#333;
-    font-size: .9em;
     text-align: center;
 }
 /* =========== LOCATIONS PAGE - TABLET */
@@ -1287,7 +1237,6 @@ display:none;
 .front-page-intro p {
     width:90%; 
     margin:auto;
-    font-size: 1.1em
 
     }
 
@@ -1398,7 +1347,8 @@ display:none;
 .about-page p {
      margin:0 0 3% 0;
     padding:0;
-    font-size: 1em;
+
+    
 }
 
 .about-image {
@@ -1476,7 +1426,7 @@ display:none;
 }
 .experiences p {
     font-weight: 100;
-    font-size: .9em;
+
 }
 
     
