@@ -55,6 +55,13 @@ get_header(); ?>
                     <div class="more-about">
                         <p><?php echo $more_about; ?></p>
                     </div>
+                    
+                    <div class="about-cta">
+                    <div class="about-classes-button">
+                    <a class="button" href="<?php echo site_url('/classes/') ?>">Take Dance Classes</a></div>
+                    <div class="about-show-button">
+                    <a class="button" href="<?php echo site_url('/entertainment/') ?>">Hire Live Entertainment</a></div>
+                    </div>
                 
 
                     <div class="bod">

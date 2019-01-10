@@ -85,7 +85,7 @@ get_header(); ?>
 
             <div class="class-buttons">
                 <div class="schedule-button">
-                    <a class="button" href="<?php echo site_url('/schedule/classes') ?>">View Class Schedule</a>
+                    <a class="button" href="<?php echo site_url('/classes/schedule') ?>">View Class Schedule</a>
                 </div>
                     
                 <div class="instructors-button">
