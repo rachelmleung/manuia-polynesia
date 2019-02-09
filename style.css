@@ -107,6 +107,7 @@ img {
     font-family: 'Kaushan Script';
     font-size: 1.5em;
     color:white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .home-bg-image p {
@@ -115,6 +116,7 @@ img {
     margin: 0 3% 15% 3%;
     color:white;
     padding:0;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .front-page-intro {
@@ -705,6 +707,11 @@ ul.eo-upcoming-dates {
     margin:0 0 5% 0;
 } 
 
+.hours p{ 
+    font-style: italic;
+    margin: 2% 0 0 0;
+    }
+
 .hayward {
     
 }
@@ -1243,17 +1250,16 @@ display:none;
 }
 
 .daly-city {
-    width:48%;
-    display:inline-block;
-    float:left;    
+    width:80%;
+    margin: 0 10% 0 10%;
 }
 
-.hayward {
+/*.hayward {
       
     width:48%;  
     display:inline-block;
 
-    }
+    }*/
 
 .phone {
     width:48%;   
@@ -1683,26 +1689,54 @@ display:none;
     margin:auto;
     padding: 5% 0 0 0;
     }
+/*===================== LOCATIONS PAGE - DESKTOP =====================*/    
+    
     
 .locations{
     width:100%;
-    margin: 5% 0 10% 0;
+    margin:0;
 }
 
 .daly-city {
-    margin:0 0 5% 0;
-    width:48%;
-        display:inline-block;
-    float:left;
+    margin:0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5% 0 0 0;
+    width: 80%;
     
 }
+    
+    
+.address {
+    margin: 5% 5% 0 0;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: baseline;
+        
+    }
+    
+.address p{     
+    }
+.hours {
+    margin: 5% 0 0 0;
+    }
+    
+iframe {
+    align-items: baseline;
+    align-self: flex-start;
+    margin: 0 0 20% 0;
+    flex-grow: 2;
+    flex-direction: row;
 
-.hayward {
+    }
+
+/*.hayward {
       
     width:48%;  
     display:inline-block;
 
-    }
+    }*/
   
 .phone {
     width:48%;   

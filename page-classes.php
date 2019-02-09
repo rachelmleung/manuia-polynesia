@@ -133,7 +133,7 @@ get_header(); ?>
                                 <p><span style="font-style:italic"><?php echo $drop_in; ?></span></p>
                             </div>
                             <p><?php echo $section_2_info; ?></p>
-                            <a class="button" href="http://www.manuiapolynesia.com/wp-content/uploads/2011/12/1z-MembershipAgreeAutoDeduct-1.pdf" target="blank">View Membership Agreement</a>
+                            <a class="button" href="http://www.manuiapolynesia.com/wp-content/uploads/2019/02/1z-MembershipAgreeAutoDeduct.pdf" target="blank">View Membership Agreement</a>
                         </div>
                     </div>
                 </div><!-- end class sections-->
@@ -146,8 +146,8 @@ get_header(); ?>
                 
                <!-- Tab links -->
                 <div class="tab">
-                  <button class="tablinks" onclick="openCity(event, 'DalyCity')" id="defaultOpen">Daly City</button>
-                  <button class="tablinks" onclick="openCity(event, 'Hayward')">Hayward</button>
+                  <button class="tablinks" onclick="openCity(event, 'DalyCity')" id="defaultOpen">Daly City Studio</button>
+                  <!--<button class="tablinks" onclick="openCity(event, 'Hayward')">Hayward</button> -->
                 </div>  
                     
                 <div id="DalyCity" class="tabcontent">
@@ -249,7 +249,7 @@ get_header(); ?>
                       </div> <!-- end instructors -->
                     </div> <!-- end daly city -->
 
-            <div id="Hayward" class="tabcontent">
+         <!--   <div id="Hayward" class="tabcontent">
                         <div class="instructors">
                             <div class="instructor-images">
 
@@ -314,7 +314,7 @@ get_header(); ?>
                                 </div>
                             </div>
                             </div><!-- end images-->
-                </div> <!-- end instructors -->
+              <!--  </div> <!-- end instructors --> 
             </div>
             
 			<?php endwhile; // end of the loop. ?>

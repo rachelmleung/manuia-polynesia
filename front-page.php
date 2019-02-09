@@ -96,7 +96,7 @@ get_header(); ?>
                     <h4><?php echo $service_3; ?></h4>
                     <p><?php echo $service_3_info; ?></p>
                     
-                <a class="button" href="<?php echo site_url('/book-your-show/') ?>">Request a Show</a>
+                <a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
                 </div>
                 </div>
                 

@@ -105,21 +105,7 @@ Monthly calendars are available at the Daly City Studio during class.</p>
 
 </div>
 </div>
-<!-- end each class-->
-<div class="each-class">
-<div class="class-time"><p>8:15pm –  9:15pm</p></div>
-<div class="class-name"><p>Drills and Dance Breakdown — All Members</p></div>
-<div class="class-location"><a href="http://www.manuiapolynesia.com/locations/">Hayward Location</a></div>
-<div class="class-info">
 
-<p>Get a great cardio workout while practicing on your fundamental Tahitian dance skills including footwork, handwork and choreography. Learn routines and improvise dance sequences with different drum beats while toning up your abs, thighs and glutes!</p>
-
-<p>This class is ideal for anyone new or returning to dance.</p>
-
-    <div class="prior-experience"><p>No prior dance experience required.</p> </div>
-
-</div>
-</div>
 <!-- end each class-->
 
 </div>
@@ -190,21 +176,7 @@ Monthly calendars are available at the Daly City Studio during class.</p>
 
 </div>
 </div>
-<!-- end each class-->
-<div class="each-class">
-<div class="class-time"><p>8:15pm –  9:15pm</p></div>
-<div class="class-name"><p>Drills and Dance Breakdown — All Members</p></div>
-<div class="class-location"><a href="http://www.manuiapolynesia.com/locations/">Hayward Location</a></div>
-<div class="class-info">
 
-<p>Get a great cardio workout while practicing on your fundamental Tahitian dance skills including footwork, handwork and choreography. Learn routines and improvise dance sequences with different drum beats while toning up your abs, thighs and glutes!</p>
-
-<p>This class is ideal for anyone new or returning to dance.</p>
-
-    <div class="prior-experience"><p>No prior dance experience required.</p> </div>
-
-</div>
-</div>
 <!-- end each class-->
 
 </div>
