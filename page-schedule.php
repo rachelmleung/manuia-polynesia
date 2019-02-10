@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="class-intro"><p> Classes are for Members Only. Please <a href="http://www.manuiapolynesia.com/contact/">contact us</a> for availability of Drop-In Classes. <br>All classes are subject to change.
 Monthly calendars are available at the Daly City Studio during class.</p>
 </div>
-            
+   <br>         
 <div class="class-schedule">
 <div class="class-day">
 <h2>Mondays</h2>

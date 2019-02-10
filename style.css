@@ -76,6 +76,10 @@ img {
     padding: 0;
 }
 
+#masthead {
+    display:none;
+}
+
 /* ================== HOME PAGE - MOBILE =======================*/
 
 
@@ -139,6 +143,9 @@ img {
     margin: auto;
     }
   
+.all-services p {
+    padding:0 0 5% 0;      
+    }
 
 .service-1,.service-2,.service-3 p {
     margin: 0 0 3% 0;
@@ -729,8 +736,8 @@ ul.eo-upcoming-dates {
 #booking-intro p{
 
     color:#333;
-    margin:0;
-    padding:0 0 5% 0;
+    margin:0 0 5% 0;
+    padding:0 0 0 0;
     
 }
 
@@ -771,7 +778,9 @@ ul.eo-upcoming-dates {
     }
     
 
-
+#nf-field-39 {
+    background-color:none !important!;
+}
 /* ================ FOOTER  - MOBILE  =====================*/
 .social-media-navigation ul{
     list-style: none;
@@ -806,6 +815,7 @@ ul.eo-upcoming-dates {
 #masthead {
     padding: none;
     margin:0;
+    display: block;
     }
     
 #masthead span.title {
@@ -1293,6 +1303,10 @@ display:none;
         height:70%;
     }
 /* ========== BOOK YOUR SHOW - TABLET ============*/
+    #booking-intro p {
+        margin: 0 0 3% 0;
+        padding: 0;
+    }
     .nf-form-content  {
 
     }
@@ -1321,7 +1335,7 @@ display:none;
 .page-title-custom h1 {
     font-family: 'Kaushan Script';
     font-size: 2.2em;
-    margin:0 0 2% 0;
+    margin:2% 0 2% 0;
     padding: 0;
 }
 
@@ -1688,6 +1702,12 @@ display:none;
 .nf-form-content {
     margin:auto;
     padding: 5% 0 0 0;
+    }
+    
+    /*================== BOOK YOUR SHOW PAGE - DESKTOP ====================*/
+    #booking-intro p {
+        margin: 0 0 2% 0;
+        padding: 0;
     }
 /*===================== LOCATIONS PAGE - DESKTOP =====================*/    
     
